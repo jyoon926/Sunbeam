@@ -24,7 +24,7 @@
             </div>
 
             <section id="astray">
-                <h2>After her husband's unexpected disappearance, Annie ventures on a quest to solve the sudden mystery. Explore and trace Desmond's steps, slowly uncovering the dark and hidden truths about the village.</h2>
+                <h2>After Desmond's unexpected disappearance, Annie ventures on a quest to solve the sudden mystery. Explore the town and trace Desmond's steps, slowly uncovering the dark and hidden truths about the village.</h2>
                 <div class="inner">
                     <p>Wishlist the game on Steam:</p>
                     <a href="/"><img src="img/Steam Light.png" alt=""></a>
@@ -35,7 +35,7 @@
             </section>
 
             <section id="about">
-                <h2>Sunbeam Games was created by Jacob Yoon, a high school student and an avid game developer. He is deeply interested in 3D modelling, web development, graphic design, music, and programming, and creating Astray was a passion project during the summer before his senior year.</h2>
+                <h2>Sunbeam Games was created by Jacob Yoon, a high school student and an avid game developer. He is deeply interested in 3D modelling, web development, graphic design, music, and programming, and creating Astray was a passion project of his during the summer before senior year.</h2>
                 <div class="row">
                     <a href="mailto:jacobyoon926@gmail.com" class="link" target="_blank">jacobyoon926@gmail.com</a>
                     <a href="/" class="link" target="_blank">Twitter</a>
@@ -53,9 +53,11 @@
 <script src="js/jquery-inertiaScroll.js"></script>
 <script>
     $(function(){
-        $("#container").inertiaScroll({
-            parent: $("#content")
-        });
+        if ($(window).width() > 850) {
+            $("#container").inertiaScroll({
+                parent: $("#content")
+            });
+        }
     });
 </script>
 </html>

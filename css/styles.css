@@ -285,6 +285,12 @@ section #email::placeholder {
   html {
     font-size: 14px;
   }
+  #hero {
+    height: 500px;
+  }
+  #hero #navbar {
+    padding: 10px 30px;
+  }
   #hero #navbar #logo img {
     height: 50px;
     padding-top: 5px;
@@ -295,13 +301,16 @@ section #email::placeholder {
   }
   #hero #title {
     max-width: 1000px;
-    padding-top: 25vh;
+    padding-top: 110px;
+  }
+  #hero #arrow {
+    display: none;
   }
   .link {
     font-size: 1.25em;
   }
   section {
-    padding: 140px 40px;
+    padding: 140px 30px;
   }
   section h2 {
     font-size: 1.75em;
@@ -334,6 +343,9 @@ section #email::placeholder {
   #about .row a {
     margin-right: 0;
     margin-bottom: 20px;
+  }
+  .bottom {
+    padding: 13px 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
