@@ -253,9 +253,87 @@ section #email::placeholder {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
+  padding: 0 40px;
 }
 
 .bottom p {
+  font-size: 1.25em;
   opacity: 0.6;
+}
+
+@media screen and (max-width: 1150px) {
+  section {
+    padding: 140px;
+  }
+  #about .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 40px;
+  }
+  #about .row a {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 14px;
+  }
+  #hero #navbar #logo img {
+    height: 50px;
+    padding-top: 5px;
+  }
+  #hero #navbar #links a {
+    font-size: 1.25em;
+    margin-left: 25px;
+  }
+  #hero #title {
+    max-width: 1000px;
+    padding-top: 25vh;
+  }
+  .link {
+    font-size: 1.25em;
+  }
+  section {
+    padding: 140px 40px;
+  }
+  section h2 {
+    font-size: 1.75em;
+  }
+  section .inner {
+    padding: 100px 0;
+  }
+  section .inner p {
+    font-size: 1.75em;
+  }
+  section .inner a img {
+    height: 50px;
+  }
+  section p {
+    font-size: 1.75em;
+  }
+  section #email {
+    font-size: 1.25em;
+  }
+  #about .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 40px;
+  }
+  #about .row a {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
