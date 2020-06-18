@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Games</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ruy0hfp.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/Icon.svg" />
+</head>
+<body>
+    <div id="content">
+        <div id="container">
+            <div id="hero">
+                <div id="navbar">
+                    <a href="/" id="logo"><img src="img/Layer 1.svg" alt=""></a>
+                    <div id="links">
+                        <a href="#astray">Astray</a>
+                        <a href="#about">About</a>
+                    </div>
+                </div>
+                <img src="img/Title.png" alt="" id="title">
+                <a href="#astray" id="arrow"><img src="img/Path 18.svg" alt=""></a>
+            </div>
+
+            <section id="astray">
+                <h2>After her husband's unexpected disappearance, Annie ventures on a quest to solve the sudden mystery. Explore and trace Desmond's steps, slowly uncovering the dark and hidden truths about the village.</h2>
+                <div class="inner">
+                    <p>Wishlist the game on Steam:</p>
+                    <a href="/"><img src="img/Steam.png" alt=""></a>
+                </div>
+                <p>Join the email list to get a one-time notification when the game is released!</p>
+                <input id="email" type="email" name="email" placeholder="Email" required>
+                <input class="link" type="submit" value="Submit">
+            </section>
+
+            <section id="about">
+                <h2>Sunbeam Games was created by Jacob Yoon, a high school student and an avid game developer. He is deeply interested in 3D modelling, web development, graphic design, music, and programming, and creating Astray was a passion project during the summer before his senior year.</h2>
+                <div class="row">
+                    <a href="mailto:jacobyoon926@gmail.com" class="link" target="_blank">jacobyoon926@gmail.com</a>
+                    <a href="/" class="link" target="_blank">Twitter</a>
+                    <a href="https://www.reddit.com/user/jyoon926" class="link" target="_blank">Reddit</a>
+                </div>
+            </section>
+
+            <div class="bottom">
+                <p>© 2020 Sunbeam. All Rights Reserved. Website developed by Jacob Yoon.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-inertiaScroll.js"></script>
+<script>
+    $(function(){
+        $("#container").inertiaScroll({
+            parent: $("#content")
+        });
+    });
+</script>
+</html>

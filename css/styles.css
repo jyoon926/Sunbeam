@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFEEDF;
+  font-family: degular, sans-serif;
+  font-weight: 400;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background: #340614;
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../img/Group 2.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 40px;
+}
+
+#hero #navbar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero #navbar #logo img {
+  height: 80px;
+}
+
+#hero #navbar #links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#hero #navbar #links a {
+  color: #FFEEDF;
+  text-decoration: none;
+  margin-left: 40px;
+  padding: 2px 0;
+  font-size: 22px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+}
+
+#hero #navbar #links a:hover {
+  border-bottom: 2px solid #FFEEDF;
+}
+
+#hero #title {
+  width: 80vw;
+  max-width: 1000px;
+  padding-top: 15vh;
+}
+
+#hero #arrow {
+  height: 40px;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+#hero #arrow:hover {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+section {
+  background: #44151D;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10vw 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section h2 {
+  font-size: 2em;
+}
+
+section .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5vw 0;
+  margin: 0 auto;
+}
+
+section .inner p {
+  font-size: 2em;
+  padding-bottom: 20px;
+}
+
+section .inner a img {
+  height: 100px;
+}
+
+section p {
+  font-size: 2em;
+}
+
+section #email {
+  all: unset;
+  background: #340614;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  font-size: 1.5em;
+  border: 2px solid #340614;
+  border-bottom: 2px solid #FFEEDF;
+  margin: 24px 0;
+  -webkit-transition-duration: .4s;
+          transition-duration: .4s;
+}
+
+section #email:focus {
+  border: 2px solid #FFEEDF;
+}
+
+section #email::-webkit-input-placeholder {
+  color: #FFEEDF;
+}
+
+section #email:-ms-input-placeholder {
+  color: #FFEEDF;
+}
+
+section #email::-ms-input-placeholder {
+  color: #FFEEDF;
+}
+
+section #email::placeholder {
+  color: #FFEEDF;
+}
+
+.link {
+  all: unset;
+  background: #FFEEDF;
+  padding: 15px 30px;
+  color: #44151D;
+  font-size: 1.5em;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+.link:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+#about {
+  background: #340614;
+}
+
+#about .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 40px;
+}
+
+#about .row a {
+  margin-right: 30px;
+}
+
+.bottom {
+  background: #340614;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+.bottom p {
+  opacity: 0.6;
+}
+/*# sourceMappingURL=styles.css.map */
