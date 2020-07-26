@@ -1,6 +1,6 @@
-$white: #FFEEDF;
-$red: #44151D;
-$dark-red: #340614;
+$white: #f8e0ba;
+$red: #212635;
+$dark-red: #151a2c;
 * {
     margin: 0; padding: 0;
     color: $white;
@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background: url('../img/Group\ 2.png');
+    background: url('../img/Screenshot\ Clear.png');
     background-position: center;
     background-size: cover;
     box-sizing: border-box;
@@ -67,8 +67,8 @@ body {
     }
     #title {
         width: 80vw;
-        max-width: 1000px;
-        padding-top: 15vh;
+        max-width: 900px;
+        padding-top: 7vh;
     }
     #arrow {
         height: 40px;
@@ -109,7 +109,14 @@ section {
     p {
         font-size: 2em;
     }
-    #email {
+    form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #mce-EMAIL {
         all: unset;
         background: $dark-red;
         width: 100%;
@@ -128,7 +135,7 @@ section {
         }
     }
 }
-.link {
+.button {
     all: unset;
     background: $white;
     padding: 15px 30px;
@@ -157,7 +164,7 @@ section {
     background: $dark-red;
     box-sizing: border-box;
     text-align: center;
-    padding: 0 40px;
+    padding: 20px 40px;
     p {
         font-size: 1.25em;
         opacity: 0.6;
@@ -199,7 +206,7 @@ section {
         }
         #title {
             max-width: 1000px;
-            padding-top: 110px;
+            padding-top: 50px;
         }
         #arrow {
             display: none;

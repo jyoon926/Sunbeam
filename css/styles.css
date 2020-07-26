@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #FFEEDF;
+  color: #f8e0ba;
   font-family: degular, sans-serif;
   font-weight: 400;
 }
@@ -16,7 +16,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background: #340614;
+  background: #151a2c;
   margin: 0;
   padding: 0;
 }
@@ -37,7 +37,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url("../img/Group 2.png");
+  background: url("../img/Screenshot Clear.png");
   background-position: center;
   background-size: cover;
   -webkit-box-sizing: border-box;
@@ -89,7 +89,7 @@ body {
 }
 
 #hero #navbar #links a {
-  color: #FFEEDF;
+  color: #f8e0ba;
   text-decoration: none;
   margin-left: 40px;
   padding: 2px 0;
@@ -100,13 +100,13 @@ body {
 }
 
 #hero #navbar #links a:hover {
-  border-bottom: 2px solid #FFEEDF;
+  border-bottom: 2px solid #f8e0ba;
 }
 
 #hero #title {
   width: 80vw;
-  max-width: 1000px;
-  padding-top: 15vh;
+  max-width: 900px;
+  padding-top: 7vh;
 }
 
 #hero #arrow {
@@ -121,7 +121,7 @@ body {
 }
 
 section {
-  background: #44151D;
+  background: #212635;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 10vw 20vw;
@@ -172,59 +172,76 @@ section p {
   font-size: 2em;
 }
 
-section #email {
+section form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section #mce-EMAIL {
   all: unset;
-  background: #340614;
+  background: #151a2c;
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px;
   font-size: 1.5em;
-  border: 2px solid #340614;
-  border-bottom: 2px solid #FFEEDF;
+  border: 2px solid #151a2c;
+  border-bottom: 2px solid #f8e0ba;
   margin: 24px 0;
   -webkit-transition-duration: .4s;
           transition-duration: .4s;
 }
 
-section #email:focus {
-  border: 2px solid #FFEEDF;
+section #mce-EMAIL:focus {
+  border: 2px solid #f8e0ba;
 }
 
-section #email::-webkit-input-placeholder {
-  color: #FFEEDF;
+section #mce-EMAIL::-webkit-input-placeholder {
+  color: #f8e0ba;
 }
 
-section #email:-ms-input-placeholder {
-  color: #FFEEDF;
+section #mce-EMAIL:-ms-input-placeholder {
+  color: #f8e0ba;
 }
 
-section #email::-ms-input-placeholder {
-  color: #FFEEDF;
+section #mce-EMAIL::-ms-input-placeholder {
+  color: #f8e0ba;
 }
 
-section #email::placeholder {
-  color: #FFEEDF;
+section #mce-EMAIL::placeholder {
+  color: #f8e0ba;
 }
 
-.link {
+.button {
   all: unset;
-  background: #FFEEDF;
+  background: #f8e0ba;
   padding: 15px 30px;
-  color: #44151D;
+  color: #212635;
   font-size: 1.5em;
   -webkit-transition-duration: .3s;
           transition-duration: .3s;
 }
 
-.link:hover {
+.button:hover {
   cursor: pointer;
   -webkit-transform: translateY(-5px);
           transform: translateY(-5px);
 }
 
 #about {
-  background: #340614;
+  background: #151a2c;
 }
 
 #about .row {
@@ -249,11 +266,11 @@ section #email::placeholder {
 }
 
 .bottom {
-  background: #340614;
+  background: #151a2c;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
-  padding: 0 40px;
+  padding: 20px 40px;
 }
 
 .bottom p {
@@ -301,7 +318,7 @@ section #email::placeholder {
   }
   #hero #title {
     max-width: 1000px;
-    padding-top: 110px;
+    padding-top: 50px;
   }
   #hero #arrow {
     display: none;
